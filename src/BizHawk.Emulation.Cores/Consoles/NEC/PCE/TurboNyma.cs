@@ -50,7 +50,7 @@ namespace BizHawk.Emulation.Cores.Consoles.NEC.PCE
 			{ "pce.resamp_rate_error", new SettingOverride { Hide = true } },
 			{ "pce.vramsize", new SettingOverride { Hide = true } },
 			// match hawk behavior on BRAM, instead of giving every game BRAM
-			{ "pce.disable_bram_hucard", new SettingOverride { Hide = true, Default = "1" } },
+			{ "pce.disable_bram_hucard", new SettingOverride { Hide = false, Default = "0" } },
 			// nyma settings that don't apply here
 			// TODO: not quite happy with how this works out
 			{ "nyma.rtcinitialtime", new SettingOverride { Hide = true } },

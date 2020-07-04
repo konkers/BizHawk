@@ -234,7 +234,7 @@ namespace BizHawk.Emulation.Cores.PCEngine
 				RomLength = RomData.Length;
 			}
 
-			if (game["BRAM"] || Type == NecSystemType.TurboCD)
+			if (true || game["BRAM"] || Type == NecSystemType.TurboCD)
 			{
 				BramEnabled = true;
 				BRAM = new byte[2048];
